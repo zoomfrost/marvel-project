@@ -1,0 +1,196 @@
+@media screen and (max-width: 1024px) {
+    div.app {
+        width: 769px;
+    }
+    .app__header {
+        justify-content: space-around;
+    }
+    .app {
+        img.bg-decoration {
+            right: -200px;
+        }
+    }
+
+    div.char__content {
+        grid-template-columns: 600px 425px;
+        justify-items: center;
+    }
+    ul.comics__grid {
+        grid-template-columns: repeat(3, 225px);
+        justify-content: space-around;
+    }
+    ul.char__grid {
+        grid-template-columns: repeat(2, 200px);
+
+    }
+    div.randomchar {
+        width: 950px;
+        margin: 0 auto;
+    }
+    p.randomchar__descr {
+        font-size: 13px;
+    }
+    p.randomchar__name {
+        font-size: 20px;
+    }
+    p.randomchar__title {
+        font-size: 22px;
+    }
+    div.randomchar__block, div.randomchar__static {
+        padding: 25px 20px;
+    }
+    .button {
+        min-width: 80px;
+        .inner {
+            padding: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.app {
+        max-width: 400px;
+    }
+    img.bg-decoration {
+        display: none;
+    }
+    ul.char__grid {
+        column-gap: 10px;
+        row-gap: 20px;
+        justify-items: center;
+    }
+    div.randomchar {
+        width: 400px;
+        grid-template-columns: 100%;
+    }
+    .app__header {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    div.app__banner {
+        padding: 0;
+        grid-template-columns: 77px auto 133px;
+        &-text {
+            font-size: 15px;
+            padding-top: 4px;
+        }
+    }
+    ul.comics__grid {
+        grid-template-columns: 400px;
+    }
+
+    div.single-comic {
+        grid-template-columns: 400px;
+        column-gap: 0;
+        justify-items: center;
+        margin-top: 25px;
+        img {
+            margin-bottom: 15px;
+        }
+    }
+    a.single-comic__back {
+        order: -1;
+        margin-bottom: 10px;
+    }
+    li.comics__item a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .randomchar__static {
+        order: -1;
+    }
+    div.char__search-wrapper {
+        input {
+            width: 200px;
+        }
+    }
+    li.char__item {
+        width: 185px;
+        height: 300px;
+        img {
+            width: 185px;
+        }
+    }
+    div.randomchar__block {
+        column-gap: 10px;
+        order: 1;
+    }
+    div.char__content {
+        grid-template-columns: 400px;
+        margin-top: 30px;
+    }
+    div.randomchar__btns a:nth-child(1) {
+        margin-right: 10px;
+    }
+    div.char__list {
+        order: 2;
+        margin-top: 25px;
+    }
+    a.button__main {
+        margin-right: 5%;
+    }
+    div.char__basics {
+        column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    div.app {
+        width: 320px;
+    }
+    h1.app__title {
+        font-size: 24px;
+    }
+    .app__menu ul {
+        font-size: 20px;
+    }
+    div.randomchar {
+        width: 320px;
+    }
+    p.randomchar__title {
+        font-size: 14px;
+    }
+    .button .inner {
+        line-height: 12px;
+    }
+    div.randomchar__block {
+        grid-template-columns: 290px;
+        justify-items: center;
+    }
+    div.randomchar__info {
+        grid-template-rows: minmax(29px, auto) minmax(20px, auto) 38px;
+    }
+    header.app__header {
+        padding: 0px 10px 0 10px;
+    }
+    div.char__content {
+        grid-template-columns: 320px;
+    }
+    div.char__search-wrapper input {
+        width: 180px;
+    }
+    ul.char__grid {
+        grid-template-columns: 320px;
+    }
+    div.comics__item-name {
+        font-size: 11px;
+    }
+    div.app__banner-text {
+        display: none;
+    }
+    div.app__banner {
+        grid-template-columns: 170px 133px;
+    }
+    div.single-comic {
+        grid-template-columns: 320px;
+    }
+    img.single-comic__img {
+        width: 270px;
+        height: 427px;
+    }
+    div.single-comic__info {
+        padding: 0 10px 0 10px;
+    }
+}
