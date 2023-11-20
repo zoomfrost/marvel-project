@@ -1,6 +1,7 @@
 # This project dedicated to all Marvel fans
+## https://marvel-information.netlify.app/
 ## SPA with using Marvel API
-Users can:
+Users could:
 - See information about random marvel character
 - See list of characters and check comics list in whick each character has taken part 
 - Link to Wiki and Homepage of character
